@@ -1,0 +1,52 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  background-color: red;
+}
+
+.empty {
+  border: 3px solid black;
+  width: 160px;
+  height: 160px;
+  display: inline-block;
+  margin: 10px;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.fill {
+  background-image: url('./Red\ Car\ Cabrio\ With\ Grunge\ Wall\ \(1\).jpg');
+  background-size: contain;
+  width: 150px;
+  height: 150px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hold {
+  border: solid #ccc 4px;
+}
+
+.hovered {
+  background: #f4f4f4;
+  border-style: dashed;
+
+}
+.invisible{
+  display: none;
+}
+
+@media (max-width: 800px) {
+}
